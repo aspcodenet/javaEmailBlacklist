@@ -3,7 +3,7 @@ server:
 
 spring:
     datasource:
-        url: jdbc:mysql://localhost:3306/ApiServer
+        url: jdbc:mysql://mysql:3306/ApiServer
         hikari:
             username: root
             password: hejsan123
