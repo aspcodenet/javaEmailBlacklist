@@ -6,7 +6,7 @@ spring:
         url: jdbc:mysql://mysql:3306/ApiServer
         hikari:
             username: root
-            password: Hejsan123#
+            password: hejsan123
     jpa:
         database: mysql
         hibernate:
