@@ -7,7 +7,7 @@ GET http://localhost:8080/api/stefan/blacklist
 
 ### add one
 POST  http://localhost:8080/api/stefan/blacklist
-Content-Type: application/json
+Content-Type: application/jsonw
 
 {
     "email":"stefan6@aaa.com",
