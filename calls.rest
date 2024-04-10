@@ -1,0 +1,17 @@
+### check one
+GET http://localhost:8080/api/stefan/blacklistcheck/eh@test.com
+
+### get all
+GET http://localhost:8080/api/stefan/blacklist
+
+
+### add one
+POST  http://localhost:8080/api/stefan/blacklist
+Content-Type: application/json
+
+{
+    "email":"stefan2@aaa.com",
+    "name":"Stefan Holmberg",
+    "group": "whatever",
+    "isok":"false"
+}
