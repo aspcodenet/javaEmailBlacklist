@@ -6,8 +6,8 @@ GET http://localhost:8080/api/stefan/blacklist
 
 
 ### add one
-POST  http://localhost:8080/api/stefan/blacklist
-Content-Type: application/jsonw
+POST  http://stefansapi.jumpingcrab.com/api/stefan/blacklist
+Content-Type: application/json
 
 {
     "email":"stefan6@aaa.com",
@@ -17,7 +17,7 @@ Content-Type: application/jsonw
 
 
 ### UPDATE one
-PUT  http://localhost:8080/api/stefan/blacklist/stefan6@aaa.com
+PUT  http://stefansapi.jumpingcrab.com/api/stefan/blacklist/stefan6@aaa.com
 Content-Type: application/json
 
 {
