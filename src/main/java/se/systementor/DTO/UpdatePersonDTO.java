@@ -9,7 +9,7 @@ public class UpdatePersonDTO {
     public void setName(String name) {
         this.name = name;
     }
-    public boolean isOk() {
+    public boolean getIsOk() {
         return isOk;
     }
     public void setOk(boolean isOk) {

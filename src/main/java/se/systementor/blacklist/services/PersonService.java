@@ -36,7 +36,7 @@ public class PersonService {
         person.setCreated(LocalDateTime.now());
         person.setName(personDTO.getName());
         person.setEmail((personDTO.getEmail()));
-        person.setOk(personDTO.isOk());
+        person.setOk(personDTO.getIsOk());
         return personRepository.save(person);
     }
 
@@ -47,7 +47,7 @@ public class PersonService {
         }
         var obj = existing.get();
         obj.setName(personDTO.getName());
-        obj.setOk(personDTO.isOk());
+        obj.setOk(personDTO.getIsOk());
         personRepository.save(obj);
     }
     

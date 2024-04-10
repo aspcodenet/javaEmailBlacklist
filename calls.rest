@@ -10,8 +10,17 @@ POST  http://localhost:8080/api/stefan/blacklist
 Content-Type: application/json
 
 {
-    "email":"stefan2@aaa.com",
+    "email":"stefan6@aaa.com",
     "name":"Stefan Holmberg",
-    "group": "whatever",
-    "isok":"false"
+    "isOk":true
+}
+
+
+### UPDATE one
+PUT  http://localhost:8080/api/stefan/blacklist/stefan6@aaa.com
+Content-Type: application/json
+
+{
+    "name":"Stefan Holmberg",
+    "isOk":"true"
 }
