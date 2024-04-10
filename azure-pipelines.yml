@@ -24,6 +24,6 @@ stages:
         inputs:
           script: |
             cd blacklist
-            docker build -t registry.aspcode.net/javablacklist .
-            docker login -u $(REGISTRY_USERNAME) -p $(REGISTRY_PASSWORD)  https://registry.aspcode.net
-            docker push registry.aspcode.net/javablacklist
+            docker build -t reg2.aspcode.net/javablacklist .
+            docker login -u $(REGISTRY_USERNAME) -p $(REGISTRY_PASSWORD)  https://reg2.aspcode.net
+            docker push reg2.aspcode.net/javablacklist
